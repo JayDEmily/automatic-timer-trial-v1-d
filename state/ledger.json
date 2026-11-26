@@ -4,21 +4,26 @@
   "repository": "JayDEmily/automatic-timer-trial-v1-d",
   "branch": "trial/gate-3",
   "plan": "plans/active-execplan.md",
-  "execution_status": "paused",
+  "execution_status": "active",
   "current_leaf": "G3-D1",
   "last_completed_leaf": null,
-  "current_candidate_sha": null,
-  "next_assignment": null,
+  "current_candidate_sha": "3a2a881b0aff37e2a0abdb7b80fd52cbe89438f3",
+  "next_assignment": {
+    "role": "implementation worker",
+    "task": "Implement the bounded normalization requirement in plans/active-execplan.md. Observe the new regression fail before changing source, then make the minimum source change and run the complete fixture unit suite. Publish the exact engineering candidate C to trial/gate-3, verify its required Actions push run and actual tested SHA/tree, then publish a separate eligible independent-review ledger handoff H. Never review your own work. Follow the plan and preserve the designated pre-dispatch stop if this lane is chosen for Continue."
+  },
   "review_verdict": null,
   "ci_run_id": null,
   "delivery_contract": "saved-turn-only",
   "qualified_method_sha": "2005f5e4a5d68752d76deb4abda8774ba33092ed",
   "bootstrap": {
-    "state": "awaiting_authorised_native_start",
+    "state": "authorised_direct_native_start",
     "role": "implementation worker",
     "task": "Implement the bounded normalization requirement in plans/active-execplan.md. Observe the new regression fail before changing source, then make the minimum source change and run the complete fixture unit suite. Publish the exact engineering candidate C to trial/gate-3, verify its required Actions push run and actual tested SHA/tree, then publish a separate eligible independent-review ledger handoff H. Never review your own work. Follow the plan and preserve the designated pre-dispatch stop if this lane is chosen for Continue.",
     "review_role": "independent reviewer",
-    "review_task": "Consume the exact original hosted saved-turn handoff with the pinned method before work. Independently assess the exact C/tree, required CI run/attempt, actual tested checkout, fixture requirement, permitted diff and test results. Publish only reviews/G3-D1.md and the permitted terminal ledger transition. A FAIL or unresolved condition holds succession; no self-review, other branch or new successor."
+    "review_task": "Consume the exact original hosted saved-turn handoff with the pinned method before work. Independently assess the exact C/tree, required CI run/attempt, actual tested checkout, fixture requirement, permitted diff and test results. Publish only reviews/G3-D1.md and the permitted terminal ledger transition. A FAIL or unresolved condition holds succession; no self-review, other branch or new successor.",
+    "source_route": "https://chatgpt.com/g/g-p-6b07e60ee8bc81918416d3230083841c/project",
+    "authority_commit": "fd73c415b9d18ab3a39afc07d0fb51fb95789edb"
   },
   "ci": {
     "provider": "github-actions",
@@ -30,5 +35,7 @@
     ],
     "candidate_result": null
   },
-  "note": "Initialised fixture only. No eligible live assignment, Project binding, candidate CI PASS or reviewer verdict. Owner activation and real observed route required."
+  "note": "Owner-authorised native Start. The target ledger directly commissions the initial implementation worker. Later reviewer delivery requires a separate eligible H under the target plan.",
+  "project_name": "Project Test D",
+  "project_id": "g-p-6b07e60ee8bc81918416d3230083841c"
 }
