@@ -1,2 +1,2 @@
 def normalize(lines):
-    return list(lines)
+    return [trimmed for line in lines if (trimmed := line.strip())]
