@@ -7,13 +7,17 @@
   "execution_status": "active",
   "current_leaf": "G3-D1",
   "last_completed_leaf": null,
-  "current_candidate_sha": "a623990d93f2ae5f6b1cab1ab843e5ac92efe124",
+  "current_candidate_sha": "3387051df3ae93261e4a9415e45af34ffc11ee7a",
   "next_assignment": {
-    "role": "implementation worker",
-    "task": "Implement the bounded normalization requirement in plans/active-execplan.md. Observe the new regression fail before changing source, then make the minimum source change and run the complete fixture unit suite. Publish the exact engineering candidate C to trial/gate-3-blind-20261126, verify its required Actions push run and actual tested SHA/tree, then publish a separate eligible independent-review ledger handoff H. Never review your own work. Follow the plan and preserve the designated pre-dispatch stop if this lane is chosen for Continue."
+    "role": "independent reviewer",
+    "task": "Consume the exact original hosted saved-turn handoff with the pinned method before work. Independently assess the exact C/tree, required CI run/attempt, actual tested checkout, fixture requirement, permitted diff and test results. Publish only reviews/G3-D1.md and the permitted terminal ledger transition. A FAIL or unresolved condition holds succession; no self-review, other branch or new successor.",
+    "delivery": {
+      "contract": "saved-turn-only",
+      "source_route": "https://chatgpt.com/g/g-p-6b081758dfd48191967e2486fe2ffbac/project"
+    }
   },
   "review_verdict": null,
-  "ci_run_id": null,
+  "ci_run_id": 45816301946,
   "delivery_contract": "saved-turn-only",
   "qualified_method_sha": "2005f5e4a5d68752d76deb4abda8774ba33092ed",
   "bootstrap": {
@@ -33,9 +37,43 @@
     "required_jobs": [
       "Test normalizer"
     ],
-    "candidate_result": null
+    "candidate_result": {
+      "candidate_sha": "3387051df3ae93261e4a9415e45af34ffc11ee7a",
+      "candidate_tree": "6163862898fbb1b2ebdf68ddc5f1dcbb7baf6667",
+      "run_id": 45816301946,
+      "run_attempt": 1,
+      "job_id": 139896814347,
+      "workflow_name": "Fixture CI",
+      "workflow": ".github/workflows/ci.yml",
+      "event": "push",
+      "ref": "refs/heads/trial/gate-3-blind-20261126",
+      "job": "Test normalizer",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "3387051df3ae93261e4a9415e45af34ffc11ee7a",
+      "tested_sha": "3387051df3ae93261e4a9415e45af34ffc11ee7a",
+      "tested_tree": "6163862898fbb1b2ebdf68ddc5f1dcbb7baf6667",
+      "created_at": "2026-11-26T12:04:45Z",
+      "job_completed_at": "2026-11-26T12:04:51Z",
+      "run_url": "https://github.com/JayDEmily/automatic-timer-trial-v1-d/actions/runs/45816301946",
+      "job_url": "https://github.com/JayDEmily/automatic-timer-trial-v1-d/actions/runs/45816301946/job/139896814347",
+      "test_command": "python3 -B -m unittest discover -s tests -v",
+      "actual_relevant_output": [
+        "TESTED_SHA=3387051df3ae93261e4a9415e45af34ffc11ee7a",
+        "TESTED_TREE=6163862898fbb1b2ebdf68ddc5f1dcbb7baf6667",
+        "test_empty (test_normalizer.NormalizeTests.test_empty) ... ok",
+        "test_internal_whitespace (test_normalizer.NormalizeTests.test_internal_whitespace) ... ok",
+        "test_omit_empty_and_blank_entries (test_normalizer.NormalizeTests.test_omit_empty_and_blank_entries) ... ok",
+        "test_order_duplicates_and_case (test_normalizer.NormalizeTests.test_order_duplicates_and_case) ... ok",
+        "test_trim_outer_whitespace (test_normalizer.NormalizeTests.test_trim_outer_whitespace) ... ok",
+        "test_trim_preserves_order_duplicates_case_internal_whitespace (test_normalizer.NormalizeTests.test_trim_preserves_order_duplicates_case_internal_whitespace) ... ok",
+        "Ran 6 tests in 0.000s",
+        "OK"
+      ],
+      "verified_at_utc": "2026-11-26T12:06:27.732546+00:00"
+    }
   },
-  "note": "Owner-authorised direct native Start for the clean blind trial. An eligible reviewer handoff H is separate.",
+  "note": "Implementation candidate published and exact push CI verified. Independent review pending; source route is the owner-observed exact Project landing recorded in the direct bootstrap. No native reviewer Send is recorded by this ledger.",
   "project_name": "Project Test D R3",
   "project_id": "g-p-6b081758dfd48191967e2486fe2ffbac"
 }
