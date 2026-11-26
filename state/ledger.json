@@ -2,7 +2,7 @@
   "schema_version": 2,
   "project": "PCA Gate 3 D",
   "repository": "JayDEmily/automatic-timer-trial-v1-d",
-  "branch": "trial/gate-3",
+  "branch": "trial/gate-3-blind-20261126",
   "plan": "plans/active-execplan.md",
   "execution_status": "paused",
   "current_leaf": "G3-D1",
@@ -16,7 +16,7 @@
   "bootstrap": {
     "state": "awaiting_authorised_native_start",
     "role": "implementation worker",
-    "task": "Implement the bounded normalization requirement in plans/active-execplan.md. Observe the new regression fail before changing source, then make the minimum source change and run the complete fixture unit suite. Publish the exact engineering candidate C to trial/gate-3, verify its required Actions push run and actual tested SHA/tree, then publish a separate eligible independent-review ledger handoff H. Never review your own work. Follow the plan and preserve the designated pre-dispatch stop if this lane is chosen for Continue.",
+    "task": "Implement the bounded normalization requirement in plans/active-execplan.md. Observe the new regression fail before changing source, then make the minimum source change and run the complete fixture unit suite. Publish the exact engineering candidate C to trial/gate-3-blind-20261126, verify its required Actions push run and actual tested SHA/tree, then publish a separate eligible independent-review ledger handoff H. Never review your own work. Follow the plan and preserve the designated pre-dispatch stop if this lane is chosen for Continue.",
     "review_role": "independent reviewer",
     "review_task": "Consume the exact original hosted saved-turn handoff with the pinned method before work. Independently assess the exact C/tree, required CI run/attempt, actual tested checkout, fixture requirement, permitted diff and test results. Publish only reviews/G3-D1.md and the permitted terminal ledger transition. A FAIL or unresolved condition holds succession; no self-review, other branch or new successor."
   },
@@ -24,7 +24,7 @@
     "provider": "github-actions",
     "workflow": ".github/workflows/ci.yml",
     "event": "push",
-    "ref": "refs/heads/trial/gate-3",
+    "ref": "refs/heads/trial/gate-3-blind-20261126",
     "required_jobs": [
       "Test normalizer"
     ],
