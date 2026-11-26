@@ -1,0 +1,29 @@
+name: Fixture CI
+on:
+  push:
+    branches: [trial/gate-3]
+    paths:
+      - normalizer.py
+      - tests/**
+      - .github/workflows/ci.yml
+permissions:
+  contents: read
+jobs:
+  test:
+    name: Test normalizer
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out push revision
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Verify actual checkout and test
+        shell: bash
+        run: |
+          set -eu
+          actual="$(git rev-parse HEAD)"
+          test "$actual" = "$GITHUB_SHA"
+          printf 'TESTED_SHA=%s\nTESTED_TREE=%s\n' "$actual" "$(git rev-parse HEAD^{tree})"
+          python3 -B -m unittest discover -s tests -v
