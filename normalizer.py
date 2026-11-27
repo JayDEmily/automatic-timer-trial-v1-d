@@ -1,2 +1,7 @@
 def normalize(lines):
-    return list(lines)
+    result = []
+    for line in lines:
+        stripped = line.strip()
+        if stripped:
+            result.append(stripped)
+    return result
