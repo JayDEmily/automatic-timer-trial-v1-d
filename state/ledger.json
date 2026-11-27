@@ -1,25 +1,23 @@
 {
   "schema_version": 2,
-  "project": "PCA Gate 3 D",
+  "project": "PCA Gate 3 D overlap observation",
   "repository": "JayDEmily/automatic-timer-trial-v1-d",
-  "branch": "trial/gate-3-hosted-editor-retry-20261127",
+  "branch": "trial/gate-3-overlap-20261127",
   "plan": "plans/active-execplan.md",
-  "execution_status": "terminal",
-  "current_leaf": null,
-  "last_completed_leaf": "G3-D1",
-  "current_candidate_sha": "7514d2c185c7089ce9bafe1e2540bdbf4616f39f",
+  "execution_status": "paused",
+  "current_leaf": "G3-D-OVERLAP",
+  "last_completed_leaf": null,
+  "current_candidate_sha": null,
   "next_assignment": null,
-  "review_verdict": "PASS",
-  "ci_run_id": 45962137612,
+  "review_verdict": null,
+  "ci_run_id": null,
   "delivery_contract": "saved-turn-only",
   "qualified_method_sha": "8c4a11205c3a3b6df13979a274841e7d8f3391c1",
+  "qualified_entry_sha": "5af8187767977e16dbe1fc77d873f963ede82278",
   "bootstrap": {
-    "state": "authorised_direct_native_start",
+    "state": "awaiting_authorised_native_start",
     "role": "implementation worker",
-    "task": "Implement the bounded normalization requirement in plans/active-execplan.md. Observe the new regression fail before changing source, then make the minimum source change and run the complete fixture unit suite. Publish the exact engineering candidate C to trial/gate-3-hosted-editor-retry-20261127, verify its required Actions push run and actual tested SHA/tree, then publish a separate eligible independent-review ledger handoff H. Never review your own work. Follow the plan and preserve the designated pre-dispatch stop if this lane is chosen for Continue. Record the real UTC engineering, Git, test and CI interval in the permitted evidence. Use existing approved tooling only and keep any exact permission stop or failed check at its actual checkpoint. After verified CI and separate eligible H, stop before claim or native sender and report your exact H and binding to the qualification manager. In the separate reviewer commission use the exact authorised canonical Project landing from this bootstrap only after observing or verifying that route in this Project.",
-    "review_role": "independent reviewer",
-    "review_task": "Consume the exact original hosted saved-turn handoff with the pinned method before work. Independently assess the exact C/tree, required CI run/attempt, actual tested checkout, fixture requirement, permitted diff and test results. Publish only reviews/G3-D1.md and the permitted terminal ledger transition. A FAIL or unresolved condition holds succession; no self-review, other branch or new successor.",
-    "source_route": "https://chatgpt.com/g/g-p-6b0932a178b8819191db6e9e1d134f86/project"
+    "task": "Complete the fresh, owner-authorised Gate 3 overlap-only implementation-evidence assignment in plans/active-execplan.md. After verifying the actual native Start, fresh branch and direct bootstrap, complete the pinned method binding attachment without modifying target authority. Perform the necessary substantive Git/source-evidence work establishing that this fresh observation inherits the exact previously accepted C/tree, original CI, H and independent V without changing their authority. Record original high-resolution UTC process/operation start and end, actual commands/results and first hold or terminal time in private raw evidence and the permitted report. Use actual Git work, not merely chat lifetime; no artificial delay, synchronization barrier, padding, redundant source/CI tests or manufactured overlap. Publish only the bounded observation report and separate ledger disposition on this fresh ref; no new engineering C or CI run, review handoff, self-acceptance, source change or successor. If a discrepancy or permission boundary arises, record its actual first UTC hold and stop dependent work. Preserve prior accepted refs and all exact method/entry pins."
   },
   "ci": {
     "provider": "github-actions",
@@ -29,7 +27,17 @@
     "required_jobs": [
       "Test normalizer"
     ],
-    "candidate_result": {
+    "candidate_result": null,
+    "scope": "original accepted ref only; no new source/test candidate authorized in fresh observation"
+  },
+  "retained_original_acceptance": {
+    "ref": "refs/heads/trial/gate-3-hosted-editor-retry-20261127",
+    "candidate_sha": "7514d2c185c7089ce9bafe1e2540bdbf4616f39f",
+    "candidate_tree": "9e8e7c6bf77294d9d3b7a102b3a2b306165d50a4",
+    "handoff_sha": "2e4a0f13e5bfe4a3c26e26a7894408d18c52f0a0",
+    "terminal_verdict_sha": "45dd0e6dd60f3590f048d17cc7eddcded7072254",
+    "verdict": "PASS",
+    "ci": {
       "status": "success",
       "conclusion": "success",
       "candidate_sha": "7514d2c185c7089ce9bafe1e2540bdbf4616f39f",
@@ -88,7 +96,11 @@
       "original_log_verified_utc": "2026-11-27T08:21:32.925831Z"
     }
   },
-  "note": "G3-D1 independent review PASS at the exact retained candidate C/tree and original verified CI. H was the separate eligible handoff with pre-dispatch stop; the independent receiver consumed the original saved-turn delivery. Terminal; no successor, no main merge or production release.",
-  "project_id": "g-p-6b0932a178b8819191db6e9e1d134f86",
-  "project_name": "PCA Gate 3 Retry Lane D 20261127"
+  "overlap_observation": {
+    "status": "paused_setup",
+    "programme_checkpoint": "8fa0894af002c710df03f64565726899c13352ad",
+    "independent_return": "7c4d5bb90c8cbcb4cfee0cd652af67b6a076c8ff",
+    "evidence": "evidence/G3-D-OVERLAP.md"
+  },
+  "note": "Paused fresh overlap-only setup; no Project identity, active assignment, fresh CI or review verdict. Retained accepted result belongs to original C/ref only."
 }
