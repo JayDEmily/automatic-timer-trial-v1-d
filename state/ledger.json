@@ -4,20 +4,24 @@
   "repository": "JayDEmily/automatic-timer-trial-v1-d",
   "branch": "trial/gate-3-overlap-20261127",
   "plan": "plans/active-execplan.md",
-  "execution_status": "paused",
+  "execution_status": "active",
   "current_leaf": "G3-D-OVERLAP",
   "last_completed_leaf": null,
-  "current_candidate_sha": null,
-  "next_assignment": null,
+  "current_candidate_sha": "f535b19742303336e9005dcbce430643039cb4af",
+  "next_assignment": {
+    "role": "implementation worker",
+    "task": "Complete the fresh, owner-authorised Gate 3 overlap-only implementation-evidence assignment in plans/active-execplan.md. After verifying the actual native Start, fresh branch and direct bootstrap, complete the pinned method binding attachment without modifying target authority. Perform the necessary substantive Git/source-evidence work establishing that this fresh observation inherits the exact previously accepted C/tree, original CI, H and independent V without changing their authority. Record original high-resolution UTC process/operation start and end, actual commands/results and first hold or terminal time in private raw evidence and the permitted report. Use actual Git work, not merely chat lifetime; no artificial delay, synchronization barrier, padding, redundant source/CI tests or manufactured overlap. Publish only the bounded observation report and separate ledger disposition on this fresh ref; no new engineering C or CI run, review handoff, self-acceptance, source change or successor. If a discrepancy or permission boundary arises, record its actual first UTC hold and stop dependent work. Preserve prior accepted refs and all exact method/entry pins."
+  },
   "review_verdict": null,
   "ci_run_id": null,
   "delivery_contract": "saved-turn-only",
   "qualified_method_sha": "8c4a11205c3a3b6df13979a274841e7d8f3391c1",
   "qualified_entry_sha": "5af8187767977e16dbe1fc77d873f963ede82278",
   "bootstrap": {
-    "state": "awaiting_authorised_native_start",
+    "state": "authorised_direct_native_start",
     "role": "implementation worker",
-    "task": "Complete the fresh, owner-authorised Gate 3 overlap-only implementation-evidence assignment in plans/active-execplan.md. After verifying the actual native Start, fresh branch and direct bootstrap, complete the pinned method binding attachment without modifying target authority. Perform the necessary substantive Git/source-evidence work establishing that this fresh observation inherits the exact previously accepted C/tree, original CI, H and independent V without changing their authority. Record original high-resolution UTC process/operation start and end, actual commands/results and first hold or terminal time in private raw evidence and the permitted report. Use actual Git work, not merely chat lifetime; no artificial delay, synchronization barrier, padding, redundant source/CI tests or manufactured overlap. Publish only the bounded observation report and separate ledger disposition on this fresh ref; no new engineering C or CI run, review handoff, self-acceptance, source change or successor. If a discrepancy or permission boundary arises, record its actual first UTC hold and stop dependent work. Preserve prior accepted refs and all exact method/entry pins."
+    "task": "Complete the fresh, owner-authorised Gate 3 overlap-only implementation-evidence assignment in plans/active-execplan.md. After verifying the actual native Start, fresh branch and direct bootstrap, complete the pinned method binding attachment without modifying target authority. Perform the necessary substantive Git/source-evidence work establishing that this fresh observation inherits the exact previously accepted C/tree, original CI, H and independent V without changing their authority. Record original high-resolution UTC process/operation start and end, actual commands/results and first hold or terminal time in private raw evidence and the permitted report. Use actual Git work, not merely chat lifetime; no artificial delay, synchronization barrier, padding, redundant source/CI tests or manufactured overlap. Publish only the bounded observation report and separate ledger disposition on this fresh ref; no new engineering C or CI run, review handoff, self-acceptance, source change or successor. If a discrepancy or permission boundary arises, record its actual first UTC hold and stop dependent work. Preserve prior accepted refs and all exact method/entry pins.",
+    "source_route": "https://chatgpt.com/g/g-p-6b095296600481918ef0cf367bc4b57d/project"
   },
   "ci": {
     "provider": "github-actions",
@@ -97,10 +101,12 @@
     }
   },
   "overlap_observation": {
-    "status": "paused_setup",
+    "status": "owner_released_direct_start",
     "programme_checkpoint": "8fa0894af002c710df03f64565726899c13352ad",
     "independent_return": "7c4d5bb90c8cbcb4cfee0cd652af67b6a076c8ff",
     "evidence": "evidence/G3-D-OVERLAP.md"
   },
-  "note": "Paused fresh overlap-only setup; no Project identity, active assignment, fresh CI or review verdict. Retained accepted result belongs to original C/ref only."
+  "note": "Owner-authorised narrow direct native Start for fresh overlap observation. No new source/test/CI or handoff authorized; prior accepted C/ref and independent V remain intact.",
+  "project_id": "g-p-6b095296600481918ef0cf367bc4b57d",
+  "project_name": "PCA Gate 3 Overlap Lane D 20261127"
 }
